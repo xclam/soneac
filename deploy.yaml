@@ -1,0 +1,23 @@
+import: 
+  - recipe/laravel.php
+
+config:
+  repository: 'git@github.com:xclam/soneac.git'
+
+hosts:
+  prod:
+    hostname: '164.132.108.141:2244'
+    remote_user: rjoli
+    branch: 'main'
+    deploy_path: '/var/workspace/soneac'
+
+  staging:
+    remote_user: deployer
+    deploy_path: '/var/workspace/soneac-staging'
+
+tasks:
+  build:
+    - run: uptime  
+
+after:
+  deploy:failed: deploy:unlock
