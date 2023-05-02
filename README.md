@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # soneac
 Take action plateform for social media
 
@@ -7,4 +6,3 @@ Take action plateform for social media
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
->>>>>>> master
