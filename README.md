@@ -1,5 +1,6 @@
 # soneac
 Take action plateform for social media
+:)
 
 [![Tests](https://github.com/xclam/soneac/actions/workflows/laravel.yml/badge.svg)](https://github.com/xclam/soneac/actions/workflows/laravel.yml)
 
